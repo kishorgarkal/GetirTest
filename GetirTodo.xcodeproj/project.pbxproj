@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560A51A2280733B00040E42A /* ListControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560A51A1280733B00040E42A /* ListControllerTest.swift */; };
 		5687CFE027FAF50900338E85 /* GetirTodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5687CFDE27FAF50900338E85 /* GetirTodo.xcdatamodeld */; };
 		5687CFE127FAF50900338E85 /* GetirTodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5687CFDE27FAF50900338E85 /* GetirTodo.xcdatamodeld */; };
 		5687CFE527FAF55400338E85 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5687CFE427FAF55400338E85 /* ListController.swift */; };
 		5687CFE827FAF56D00338E85 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5687CFE727FAF56D00338E85 /* ListViewModel.swift */; };
 		5687CFEB27FAF58E00338E85 /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5687CFEA27FAF58E00338E85 /* CoreDataController.swift */; };
-		56FE67D327FB02B100738F95 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE67D227FB02B100738F95 /* common.swift */; };
 		F72669392590B8DE00AB3034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72669382590B8DE00AB3034 /* AppDelegate.swift */; };
 		F726693B2590B8DE00AB3034 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F726693A2590B8DE00AB3034 /* SceneDelegate.swift */; };
 		F72669402590B8DE00AB3034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F726693E2590B8DE00AB3034 /* Main.storyboard */; };
@@ -40,11 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		560A51A1280733B00040E42A /* ListControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListControllerTest.swift; sourceTree = "<group>"; };
 		5687CFDF27FAF50900338E85 /* GetirTodo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GetirTodo.xcdatamodel; sourceTree = "<group>"; };
 		5687CFE427FAF55400338E85 /* ListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 		5687CFE727FAF56D00338E85 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		5687CFEA27FAF58E00338E85 /* CoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
-		56FE67D227FB02B100738F95 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 		F72669352590B8DD00AB3034 /* GetirTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetirTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72669382590B8DE00AB3034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F726693A2590B8DE00AB3034 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				5687CFE427FAF55400338E85 /* ListController.swift */,
+				560A51A1280733B00040E42A /* ListControllerTest.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -135,14 +136,6 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		56FE67D127FB021400738F95 /* common */ = {
-			isa = PBXGroup;
-			children = (
-				56FE67D227FB02B100738F95 /* common.swift */,
-			);
-			path = common;
-			sourceTree = "<group>";
-		};
 		F726692C2590B8DD00AB3034 = {
 			isa = PBXGroup;
 			children = (
@@ -166,7 +159,6 @@
 		F72669372590B8DE00AB3034 /* GetirTodo */ = {
 			isa = PBXGroup;
 			children = (
-				56FE67D127FB021400738F95 /* common */,
 				5687CFED27FAF5CF00338E85 /* Resource */,
 				5687CFEC27FAF59E00338E85 /* SupportingFiles */,
 				5687CFE927FAF57B00338E85 /* CoreData */,
@@ -327,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56FE67D327FB02B100738F95 /* common.swift in Sources */,
 				5687CFE527FAF55400338E85 /* ListController.swift in Sources */,
 				5687CFE827FAF56D00338E85 /* ListViewModel.swift in Sources */,
 				5687CFEB27FAF58E00338E85 /* CoreDataController.swift in Sources */,
@@ -342,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F72669502590B8DF00AB3034 /* GetirTodoTests.swift in Sources */,
+				560A51A2280733B00040E42A /* ListControllerTest.swift in Sources */,
 				5687CFE127FAF50900338E85 /* GetirTodo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,12 +503,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BPCTFV78S;
 				INFOPLIST_FILE = GetirTodo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.getir.GetirTodo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getir.GetirTodo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -529,12 +522,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BPCTFV78S;
 				INFOPLIST_FILE = GetirTodo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.getir.GetirTodo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getir.GetirTodo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -547,6 +541,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BPCTFV78S;
 				INFOPLIST_FILE = GetirTodoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -568,6 +563,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BPCTFV78S;
 				INFOPLIST_FILE = GetirTodoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -588,6 +584,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BPCTFV78S;
 				INFOPLIST_FILE = GetirTodoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -607,6 +604,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BPCTFV78S;
 				INFOPLIST_FILE = GetirTodoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -41,12 +41,21 @@ class ListController: UITableViewController {
 // MARK: - UITableViewDataSource
 extension ListController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        if viewModel.listItems.count > 0{
         return viewModel.listItems.count
+        }else{
+            return 0
+        }
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "listItemCell")
-        cell.textLabel?.text = viewModel.listItems[indexPath.row].name
+        if viewModel.listItems.count > 0{
+        
+        cell.textLabel?.text = viewModel.listItems[indexPath.row].name ?? ""
+        return cell
+        }
         return cell
     }
 }
